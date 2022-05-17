@@ -5,16 +5,8 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-    <p align="center">
-
 </p>
 
 ## Description
 
 An API made with NestJS
-
-## Installation
-
-```bash
-$ npm install
-```
