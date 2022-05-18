@@ -1,6 +1,6 @@
 # Products-API
 
-**A product system made with NestJS. It's a service where you list products, create products or even delete them. Basically a CRUD .**
+**A product system made with NestJS. It's a service where you list products, create products or even delete them.**
 
 ## What I used in this project
 
