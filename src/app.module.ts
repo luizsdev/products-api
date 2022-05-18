@@ -1,5 +1,4 @@
 import { Module } from '@nestjs/common';
-import { AppService } from './app.service';
 import { ProductsController } from './products.controller';
 import { ProductsService } from './products.service';
 import { SequelizeModule } from '@nestjs/sequelize';
@@ -21,6 +20,6 @@ ConfigModule.forRoot();
     SequelizeModule.forFeature([Product]),
   ],
   controllers: [ProductsController],
-  providers: [AppService, ProductsService],
+  providers: [ProductsService],
 })
 export class AppModule {}
