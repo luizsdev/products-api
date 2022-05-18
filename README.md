@@ -9,4 +9,4 @@
 
 ## Description
 
-An API made with NestJS
+An API made with NestJS and MySQL where you can see, add, update and delete products from a database
