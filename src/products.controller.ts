@@ -24,7 +24,7 @@ export class ProductsController {
   }
   @Post()
   criar(@Body() product: Product) {
-    this.productsService.create(product);
+    this.productsService.create(product), 'Created sucessfully';
   }
   @Put()
   alterar(@Body() product): Promise<[number]> {
